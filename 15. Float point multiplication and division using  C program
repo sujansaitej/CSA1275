@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	float n1,n2,mul,div;
+	printf("enter the values of n1 and n2:\n");
+	scanf("%f%f",&n1,&n2);
+	mul=n1*n2;
+	div=n1/n2;
+	printf("multiplication of %f and %f is %f\n",n1,n2,mul);
+	printf("division of %f and %f is %f\n",n1,n2,div);
+	
+}
